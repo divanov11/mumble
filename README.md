@@ -1,5 +1,4 @@
-#
-
+# learning how to constribute to this project 
 <p align="center">
   <img src="./frontend/public/android-chrome-512x512.png" width="15%">
   <h1 align="center">
@@ -27,7 +26,7 @@ Clone the project. This will download the GitHub respository files onto your loc
 git clone https://github.com/divanov11/mumble
 ```
 
-### Frontend Instructions (Create React App) :
+### Frontend Instructions (Create React App):
 
 ---> Navigate to the `frontend/` directory
 
