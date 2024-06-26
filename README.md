@@ -59,28 +59,27 @@ We highly recommend to go through the guideline before start contributing.
 
 ## Reviewers :
 
-After submitting your PR, please tag reviewer(s) in your PR message. You can tag anyone below for the following.
+After submitting your PR, please tag reviewer(s) in your PR message. You can tag anyone below for the following .
 
 <br/>
 
-- **Markdown, Documentation changes :** 
+- **Markdown, Documentation changes :**
 
-     Request [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)'s review !
+  Request [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)'s review !
 
 #
 
 - **Frontend, Design :**
 
-     --> *Choose two reviewers :*
+  --> _Choose two reviewers :_
 
-    [@Dennis Ivy](https://github.com/divanov11)
+  [@Dennis Ivy](https://github.com/divanov11)
 
-    [@Shahriar Parvez](https://github.com/Mr-spShuvo)
+  [@Shahriar Parvez](https://github.com/Mr-spShuvo)
 
-    [@Cody Seibert](https://github.com/codyseibert)
+  [@Cody Seibert](https://github.com/codyseibert)
 
-    [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)
-    
+  [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)
 
 ## 📸 Screenshots :
 
@@ -159,4 +158,3 @@ Dark Mode
 </td>
 </table>
 <br/>
-
