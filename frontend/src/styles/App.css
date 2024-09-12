@@ -1,55 +1,55 @@
 .custom-spacer {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .line-break {
-  background-color: var(--color-light);
-  height: 1px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  background-color: var(--color-dark-gray);
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 textarea:focus-within {
   outline: none;
-  box-shadow: rgba(0, 0, 0, 0.16) 0 0 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px;
 }
 
 #feed-post-form textarea {
   display: block;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
-  background-color: var(--color-bg);
-  border: none;
-  padding: 20px;
-  font-size: 18px;
-  border-radius: 50px;
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-light-gray);
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 30px;
   resize: none;
 }
 
 #post-btn-wrapper {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--color-light);
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid var(--color-dark-gray);
 }
 
 #post-btn {
-  text-align: right;
+  text-align: left;
 }
 
 .post-user-name {
-  text-decoration: none;
-  color: var(--color-sub-light);
+  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .contributor-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contributor-wrapper:first-child {
@@ -62,70 +62,70 @@ textarea:focus-within {
 
 .contributor-preview {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
 .contributor-preview a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .tags-wrapper {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
 .snippet-wrapper {
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .snippet-wrapper a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .snippet-engagement-count {
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-success);
-  color: var(--color-text);
-  min-width: 35px;
-  padding: 5px;
-  margin-right: 10px;
+  background-color: var(--color-highlight);
+  color: var(--color-dark-bg);
+  min-width: 40px;
+  padding: 8px;
+  margin-right: 8px;
 }
 
 .snippet-engagement-count p {
-  font-size: 1.8rem;
-  color: var(--color-bg);
-  font-weight: var(--font-medium);
+  font-size: 1.5rem;
+  color: var(--color-light-bg);
+  font-weight: bold;
 }
 
 .snippet-text {
-  color: var(--color-light-gray);
-  font-weight: var(--color-medium);
-  font-size: 1.4rem;
-  line-height: 1.35;
-  transition: all 0.3s ease-out;
+  color: var(--color-muted);
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  transition: all 0.25s ease-out;
 }
 
 .snippet-text:hover {
-  color: var(--color-main);
+  color: var(--color-highlight);
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
-  background-color: #c4d0d3;
+  width: 10px;
+  background-color: #d0e0e3;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #5aa5b9;
-  border-radius: 5px;
+  background-color: #73b3c5;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #4d94a8;
+  background-color: #629db2;
 }
